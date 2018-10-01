@@ -1,0 +1,10 @@
+{
+  "name": "crtp",
+  "version": "0.0.1",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "jest --notify --env=jsdom"
+  }
+}

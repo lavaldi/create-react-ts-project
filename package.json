@@ -1,0 +1,38 @@
+{
+  "name": "create-react-ts-project",
+  "version": "0.0.1",
+  "description": "Create a React application with TypeScript, webpack, Jest and Storybook",
+  "bin": {
+    "create-react-ts-project": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavaldi/create-react-ts-project.git"
+  },
+  "author": "Claudia Valdivieso <claumavaldivieso@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "webpack",
+    "app",
+    "storybook",
+    "jest"
+  ],
+  "homepage": "https://github.com/lavaldi/create-react-ts-project#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.3",
+    "typescript": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}

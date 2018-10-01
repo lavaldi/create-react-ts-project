@@ -1,0 +1,9 @@
+{
+  "name": "crtp",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "jest --notify --env=jsdom"
+  }
+}
